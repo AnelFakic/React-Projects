@@ -29,18 +29,16 @@ const Navbar = () => {
 
       <ul className="nav-icons">
         <li>
-          <a href="https://www.twitter.com" target="_blank" className="nav-icon"
-            ><i className="fab fa-facebook"></i
-          ></a>
+          <a href="https://github.com/AnelFakic?tab=overview&from=2025-01-01&to=2025-01-18" target="_blank" className="nav-icon"
+            ><i i className="fab fa-github"></i></a>
+        </li>
+        <li>
+        <a href="https://www.linkedin.com/in/anel-fakic/" target="_blank" className="nav-icon"
+            ><i className="fab fa-linkedin"></i></a>
         </li>
         <li>
           <a href="https://www.twitter.com" target="_blank" className="nav-icon"
-            ><i className="fab fa-twitter"></i
-          ></a>
-        </li>
-        <li>
-          <a href="https://www.twitter.com" target="_blank" className="nav-icon"
-            ><i className="fab fa-squarespace"></i
+            ><i className="fas fa-laptop-code"></i
           ></a>
         </li>
       </ul>
