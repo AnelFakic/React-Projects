@@ -7,7 +7,6 @@ import Tours from './components/Tours';
 import Footer from './components/Footer';
 
 function App() {
-  console.log('hello');
   return (
     <>
       <Navbar/>
