@@ -34,12 +34,12 @@ Follow these steps to run the app locally:
    ```bash
    git clone https://github.com/AnelFakic/React-Projects.git
    cd react-safari-site
-   ```
+   
 2. **Instaling dependencies and running**
 ```bash
 npm install
 npm run dev
-
+```
 
 
 
