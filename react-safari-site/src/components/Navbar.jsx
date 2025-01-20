@@ -1,4 +1,7 @@
 import logo from '../images/safariLogo.svg';
+import { pageLinks } from '../data';
+import { socialLinks } from '../data';
+
 const Navbar = () => {
   return (
     <nav className="navbar">
@@ -10,37 +13,21 @@ const Navbar = () => {
         </button>
       </div>
       <ul className="nav-links" id="nav-links">
-        <li>
-          <a href="#home" className="nav-link"> home </a>
+        {pageLinks.map((link)=>{
+          return <li key={link.id}>
+          <a href={link.href} className="nav-link"> {link.text} </a>
         </li>
 
-        <li>
-          <a href="#about" className="nav-link"> about </a>
-        </li>
-
-        <li>
-          <a href="#services" className="nav-link"> services </a>
-        </li>
-
-        <li>
-          <a href="#tours" className="nav-link"> tours</a>
-        </li>
+        })}
       </ul>
 
       <ul className="nav-icons">
-        <li>
-          <a href="https://github.com/AnelFakic?tab=overview&from=2025-01-01&to=2025-01-18" target="_blank" className="nav-icon"
-            ><i i className="fab fa-github"></i></a>
+        {socialLinks.map((socials)=>{
+          return <li key={socials.id}>
+          <a href={socials.href} target="_blank" className="nav-icon"
+            ><i i className={socials.icon}></i></a>
         </li>
-        <li>
-        <a href="https://www.linkedin.com/in/anel-fakic/" target="_blank" className="nav-icon"
-            ><i className="fab fa-linkedin"></i></a>
-        </li>
-        <li>
-          <a href="https://www.twitter.com" target="_blank" className="nav-icon"
-            ><i className="fas fa-laptop-code"></i
-          ></a>
-        </li>
+        })}
       </ul>
     </div>
   </nav>
