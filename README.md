@@ -21,7 +21,7 @@ Welcome to the **Safari Tours App**! This is a modern, responsive front-end appl
 
 - **React**: For building dynamic and reusable UI components.
 - **Vite**: For a fast and efficient development and build process.
-- **CSS/SCSS**: For styling the app and maintaining a polished look.
+- **CSS**: For styling the app and maintaining a polished look.
 - **Netlify**: For deploying the live version of the application.
 
 ---
