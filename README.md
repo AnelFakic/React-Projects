@@ -8,15 +8,18 @@ Welcome to my **React Projects Repository**! This repository is a collection of 
 
 This repository is organized into subfolders, with each folder containing a specific project. Below is an overview of what you’ll find:  
 
-###  Basic Front-End Apps  
+###  Basic Front-End Apps  ###
+
 These projects are simple, single-page applications that focus on mastering the fundamentals of React.  
 ---
 
-### Intermediate Projects  
+### Intermediate Projects  ###
+
 In this section, you’ll find more complex applications that demonstrate skills like routing, form handling, and working with external APIs.  
 ---
 
-###  Full-Stack Web Applications  
+###  Full-Stack Web Applications  ### 
+
 These projects are fully functional web applications with a back-end and database integration.  
 
 
