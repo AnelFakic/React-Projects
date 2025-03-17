@@ -47,7 +47,7 @@ npm run dev
 This will start a Vite-powered React server. The project will be accessible at:
 🔗 http://localhost:5173/ (or the available port shown in the terminal)
 
-## **🌍 Switching Languages **
+## **🌍 Switching Languages**
 The app supports English, Serbian, and Macedonian.
 To switch languages, simply click on the language option in the footer.
 
