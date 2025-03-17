@@ -32,12 +32,12 @@ npm install
 
 ## **📜 Dependencies **
 This project uses the following major dependencies:
--**React** (Frontend framework)
--**Apollo** Client (GraphQL API client)
--**React Bootstrap** (UI components)
--**React i18next** (Internationalization)
--**React Router DOM** (Routing)
--**GraphQL** (Query language)
+- **React** (Frontend framework)
+- **Apollo** Client (GraphQL API client)
+- **React Bootstrap** (UI components)
+- **React i18next** (Internationalization)
+- **React Router DOM** (Routing)
+- **GraphQL** (Query language)
 
 ## **🚀 Running the Project**
 To start the app in development mode, run:
