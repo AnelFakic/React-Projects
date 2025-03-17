@@ -18,7 +18,7 @@ Follow these steps to clone, install dependencies, and start the project on your
 ### **1️⃣ Clone the Repository**
 ```sh
 git clone https://github.com/AnelFakic/React-Projects.git
-cd Internship Project
+cd "Internship Task"
 ---
 ```
 
