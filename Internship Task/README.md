@@ -19,7 +19,6 @@ Follow these steps to clone, install dependencies, and start the project on your
 ```sh
 git clone https://github.com/AnelFakic/React-Projects.git
 cd "Internship Task"
----
 ```
 
 ## **2️⃣ Install Dependencies**
