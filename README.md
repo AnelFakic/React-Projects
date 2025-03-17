@@ -20,7 +20,34 @@ Follow these steps to clone, install dependencies, and start the project on your
 git clone https://github.com/YOUR_GITHUB_USERNAME/RickAndMortyExplorer.git
 cd RickAndMortyExplorer
 ---
+```
 
-### **2️⃣ Install Dependencies**
+## **2️⃣ Install Dependencies**
 Make sure you have Node.js installed (recommended: v18+).
 Then, run the following command to install all required dependencies:
+
+```sh
+npm install
+```
+
+## **📜 Dependencies **
+This project uses the following major dependencies:
+-**React** (Frontend framework)
+-**Apollo** Client (GraphQL API client)
+-**React Bootstrap** (UI components)
+-**React i18next** (Internationalization)
+-**React Router DOM** (Routing)
+-**GraphQL** (Query language)
+
+## **🚀 Running the Project**
+To start the app in development mode, run:
+```sh
+npm run dev
+```
+This will start a Vite-powered React server. The project will be accessible at:
+🔗 http://localhost:5173/ (or the available port shown in the terminal)
+
+## **🌍 Switching Languages **
+The app supports English, Serbian, and Macedonian.
+To switch languages, simply click on the language option in the footer.
+
