@@ -1,33 +1,26 @@
-# 🌟 My React Projects Repository
+# **Rick and Morty Character Explorer 🌌**  
 
-Welcome to my **React Projects Repository**! This repository is a collection of all the React projects I’ve worked on, organized to showcase my progression from beginner-level apps to fully functional full-stack web applications. Each project folder represents a unique app, complete with its own README and all the files necessary to run the application.
+A React app that fetches and displays **Rick and Morty** characters using **GraphQL**. It includes **pagination, sorting, filtering**, and **multilingual support** (English, Serbian, Macedonian).  
 
----
-
-## 📂 Repository Structure
-
-This repository is organized into subfolders, with each folder containing a specific project. Below is an overview of what you’ll find:
-
-### 🏁 Basic Front-End Apps
-
-These projects are simple, single-page applications that focus on mastering the fundamentals of React.
+## **📜 Features**
+- **GraphQL API** using Apollo Client  
+- **Filtering** by status and species  
+- **Sorting** by name and origin  
+- **Pagination** with dynamic page navigation  
+- **Multilingual support** with **react-i18next**  
+- **Bootstrap UI** for a clean and responsive design  
 
 ---
 
-### 🚀 Intermediate Projects
+## **📦 Installation & Setup**
+Follow these steps to clone, install dependencies, and start the project on your local machine.  
 
-In this section, you’ll find more complex applications that demonstrate skills like routing, form handling, and working with external APIs.
-
+### **1️⃣ Clone the Repository**
+```sh
+git clone https://github.com/YOUR_GITHUB_USERNAME/RickAndMortyExplorer.git
+cd RickAndMortyExplorer
 ---
 
-### 🌐 Full-Stack Web Applications
-
-These projects are fully functional web applications with a back-end and database integration.
-
-
-
-Each folder contains:
-
-- A README.md with a description of the app.
-- The source code for the project.
-- Live Demos for every app.
+### **2️⃣ Install Dependencies**
+Make sure you have Node.js installed (recommended: v18+).
+Then, run the following command to install all required dependencies:
